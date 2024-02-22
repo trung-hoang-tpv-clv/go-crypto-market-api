@@ -1,0 +1,12 @@
+1. Should response error messsage "symbol, startDate, and endDate parameters are required" when missing symbol, startDate, endDate
+2. Should response error messsage "startDate must be in YYYY-MM-DD format" when format startDate inconrect
+3. Should response error message "endDate must be in YYYY-MM-DD format" when format endDate incorect
+4. Should response error messsage "startDate cannot be after endDate" when startDate greater than endDate
+5. Should response any error message when fetch data from coingecko or redis, database have error
+7. Should return empty data when fetching data from coingecko, redis, database does not exist in time range
+8. Should return data from redis caching
+9. Should return data from database when data from cache does not exists
+10. Should return data from coingecko and store to redis cache, database sucessfully
+11. Should return data from coingecko and save to redis cache, database error
+12. Should return data from coingecko and save to redis cache success but does not save to database
+13. Should return data from coingecko and save to database success but does not save to redis cache
