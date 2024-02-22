@@ -1,0 +1,28 @@
+# Compiled Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Log files
+*.log
+
+# Ignore the binary output directory
+/bin/
+
+# Ignore IDE and editor files
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local .env files
+.env
+.env.local
+
+/pgdata
